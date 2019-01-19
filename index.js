@@ -1,13 +1,15 @@
 module.exports = {
   extends: [
+    'tslint:latest',
     'tslint-microsoft-contrib',
   ],
   rulesDirectory: [
-    'node_modules/tslint-eslint-rules/dist/rules',
-    'node_modules/tslint-microsoft-contrib',
+    'tslint-eslint-rules',
+    'tslint-microsoft-contrib',
     'tslint-consistent-codestyle',
   ],
   rules: {
+    'export-name': false,
     'import-name': false,
     'member-access': false,
     'no-as-type-assertion': true,
