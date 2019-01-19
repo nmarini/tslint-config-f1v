@@ -1,0 +1,41 @@
+{
+  "name": "tslint-config-f1v",
+  "version": "0.0.1",
+  "description": "F1V's TSLint config, following our styleguide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f1v/tslint-config-f1v"
+  },
+  "keywords": [
+    "tslint",
+    "tslintconfig",
+    "config",
+    "f1v",
+    "javascript",
+    "styleguide",
+    "typescript"
+  ],
+  "author": {
+    "name": "F1V Consulting",
+    "email": "developers@f1v.co",
+    "url": "http://www.f1v.co/"
+  },
+  "contributors": [
+    {
+      "name": "Veronica Carrillo-Marquez",
+      "email": "veiko@f1v.co",
+      "url": "http://www.f1v.co/"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/f1v/tslint-config-f1v",
+  "dependencies": {
+    "tslint": "^5.12.1",
+    "tslint-consistent-codestyle": "^1.15.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.4"
+  }
+}
