@@ -1,5 +1,5 @@
 {
-  "name": "tslint-config-f1v",
+  "name": "@f1v/tslint-config-f1v",
   "version": "0.0.1",
   "description": "F1V's TSLint config, following our styleguide",
   "main": "index.js",
