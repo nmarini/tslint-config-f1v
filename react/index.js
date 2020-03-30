@@ -1,15 +1,24 @@
 module.exports = {
-  extends: [
+  "extends": [
       require.resolve("../index"),
-      require.resolve("tslint-react"),
+      "eslint:recommended",
+      "plugin:react/recommended",
+    ],
+  "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "project": "tsconfig.json",
+      "sourceType": "module"
+  },
+  "plugins": [
+      "@typescript-eslint"
   ],
-  rules: {
-      "export-name": false,
-      "no-this-assignment": false,
-      "jsx-no-multiline-js": false,
-      "jsx-boolean-value": false,
-      "react-this-binding-issue": false,
-      "jsx-wrap-multiline": false,
-      "no-any": false,
+  "rules": {
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-this-alias": "off"
   }
 };
